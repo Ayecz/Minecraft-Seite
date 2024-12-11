@@ -1,0 +1,174 @@
+body, html {
+    background: linear-gradient(to right, lightblue, white, lightblue);
+    padding: 5px;
+    
+}
+
+
+
+p {
+    color: midnightblue;
+    font-size: 17px;
+}
+
+h1 {
+    color: darkorchid;
+    width: 250px;
+    height: 100px;
+    border: 3px dotted blueviolet;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box; 
+    line-height: 100px;     
+}
+
+h2 {
+    color: darkslateblue;
+}
+
+h3 {
+    color: indigo;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500px; 
+}
+
+h4{
+    color: indigo;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500px; 
+
+}
+
+h6 {
+    color: black;
+    font-size: 15px;
+}
+
+.span1 {
+    font-weight: bold;
+    animation: RGBLOOP 5s infinite alternate;
+}
+
+@keyframes RGBLOOP {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+    50% {
+        color: rgb(0, 255, 0);
+    }
+    100% {
+        color: rgb(0, 0, 255);
+    }
+}
+
+.RGB1{
+    font-weight: bold;
+    animation: RGBLOOP1 5s infinite alternate;
+}
+@keyframes RGBLOOP1 {
+    0%{
+        color: rgb(255, 0, 0);
+    }
+    50%{
+        color: rgb(250, 143, 20);
+    }
+    100%{
+        color: rgb(184, 181, 49);
+    }
+}
+
+.span3{
+    color: red;
+}
+
+.Reiter1{
+    text-decoration: underline;
+    
+}
+
+.INSTALL{
+    color:red;
+}
+
+
+.animate__animated.animate__bounce {
+    color: orange;
+    font-weight: bold;
+}
+
+.paragraph1{
+    color: red;
+}
+
+.Kreativlos{
+    color: red;
+}
+
+.Bild1, .Bild2 {
+    height: 500px;
+    width: 1000px;
+    border-radius: 20px;
+}
+
+.Bild3 {
+    height: 180px;
+    width: 1500px;
+    border-radius: 20px;
+}
+
+.Bild4{
+    height: 330px;
+    width: 330px;
+    border-radius: 20px;
+}
+
+.Bild5{
+    height: 700px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.Bild6{
+    height: 700px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.Bild7{
+    height: 700px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.Bild8{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.GIF1{
+    height: 700px;
+    width: 800px;
+    border-radius: 20px; 
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+
+    .Bild1, .Bild2, .Bild3, .Bild4, .Bild5, .Bild6, .Bild7 {
+        width: 100%;  
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+
+    h2, h3, h6 {
+        font-size: 18px; 
+    }
+}
